@@ -1,0 +1,338 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+a{
+	color: black;
+}
+body{
+	font-family: "Assistant", sans-serif;
+	/*font-family: "Roboto", sans-serif;*/
+}
+.outer{
+	width: 100%;
+	background-color: whitesmoke;
+}
+.main-header{
+	width: 100%;
+	background-color: white;
+	box-shadow: 0px 0px 5px 2px gray;
+}
+.header{
+	border: 0px solid red;
+	margin: 0px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo img{
+	padding: 10px;
+}
+.menu ul{
+	display: flex;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+}
+.menu ul li{
+	padding: 15px;
+}
+.search{
+	background-color: #f5f5f6;
+	padding: 5px 10px;
+	flex-grow: 2;
+	margin: 0px 30px;
+	cursor: pointer;
+}
+.search svg{
+	color: gray;
+}
+.search input{
+	background-color: #f5f5f6;
+	border: 0px;
+	padding: 5px;
+	width: 90%;
+	margin-left: 10px;
+}
+.search input:focus{
+	outline: none;
+}
+.icons{
+	display: flex;
+	font-weight: bold;
+}
+.icons div{
+	padding: 5px;
+	text-align: center;
+}
+.tag{
+	width: 100%;
+	padding-top: 20px;
+}
+.tag img{
+	width: 100%;
+}
+.banner{
+	width: 100%;
+}
+.parts{
+	width: 100%;
+	display: flex;
+}
+.left{
+	width: 50%;
+}
+.right{
+	width: 50%;
+}
+.left img{
+	width: 100%;
+}
+.right img{
+	width: 100%;
+}
+.adv{
+	width: 100%;
+}
+.adv img{
+	width: 100%;
+}
+.coupon{
+	width: 100%;
+}
+.coupon-r1{
+	width: 100%;
+}
+.coupon-r2{
+	width: 100%;
+}
+.cparts{
+	width: 90%;
+	margin: auto;
+	margin-left: 5%;
+	margin-right: 5%;
+	display: flex;
+}
+.coupon-r3{
+	width: 100%;
+}
+.products{
+	width: 100%;
+	display: flex;
+}
+.item{
+	width: 17%;
+}
+.item img{
+	width: 100%;
+}
+.catlog{
+	width: 100%;
+}
+.catlog-head{
+	width: 100%;
+}
+.catlog-products{
+	width: 100%;
+}
+.pro{
+	display: flex;
+	width: 10%;
+	margin: 40px 0px;
+}
+.pro img{
+	width: 100%;
+}
+.lastbanner{
+	width: 100%;
+	margin-top: 100px;
+	padding-bottom: 70px;
+}
+.footer{
+	width: 100%;
+	background-color: #fafbfc;
+}
+
+.middle{
+	font-size: 13px;
+	width: 1120px;
+	margin: auto;
+	padding-top: 50px;
+}
+.part1{
+	width: 100%;
+	display: flex;
+}
+.part1 ol li{
+	color: #696b79;
+}
+.part2{
+	width: 100%;
+}
+.part3{
+	width: 100%;
+}
+.box1{
+	width: 20%;
+}
+.box2{
+	width: 17%;
+}
+.box3{
+	width: 30%;
+}
+.box4{
+	width: 25%;
+}
+.online h4{
+	padding: 10px 0px 30px 0px;
+}
+.online ol li{
+	padding: 5px 0px 5px 0px;
+}
+.useful{
+	padding-top: 30px;
+}
+.useful h4{
+	padding: 10px 0px 30px 0px;
+}
+.useful ol li{
+	padding: 5px 0px 5px 0px;
+}
+.customer h4{
+	padding: 10px 0px 30px 0px;
+}
+.customer ol li{
+	padding: 5px 0px 5px 0px;
+}
+.app h4{
+	padding: 10px 0px 2px 0px;
+}
+.appbutton{
+	display: flex;
+	padding: 30px 0px;
+}
+.button1{
+	width: 50%;
+}
+.button2{
+	width: 50%;
+}
+.social{
+	width: 60%;
+}
+.socialhead{
+	padding: 10px 0px 20px 0px;
+	width: 100%;
+}
+.socialimg{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+#img1{
+	padding: 0px 10px 0px 0px;
+}
+.img{
+	width: 10%;
+	padding: 0px 5px;
+}
+.about{
+	padding-top: 20px;
+	width: 100%;
+	display: flex;
+}
+.icon{
+	width: 20%;
+}
+.content{
+	width: 80%;
+	color: #696b79;
+}
+.content b{
+	color: black;
+}
+.head{
+	padding: 10px 0px 20px 0px;
+	width: 100%;
+}
+.links{
+	font-size: 15px;
+	width: 100%;
+	line-height: 25px;
+}
+.links a{
+	color: #696b79;
+}
+.part2last{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 2px;
+	font-size: 15px;
+}
+.part2last1 a{
+	color: blue;
+	font-weight: bold;
+}
+.part3head{
+	width: 100%;
+	padding: 30px 0px;
+	font-size: 15px;
+}
+.part3content{
+	font-size: 15px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.part3contentleft{
+	width: 50%;
+	color:#696b79;
+}
+.part3contentright{
+	padding-top: 70px;
+	width: 50%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.part3contentright a{
+	color: blue;
+	font-weight: bold;
+}
+.info{
+	width: 100%;
+	padding: 20px 0px;
+}
+.info h4{
+	padding: 10px 0px;
+}
+.info p{
+	color: #696b79;
+	font-size: 15px;
+	padding-bottom: 10px ;
+}
+.points{
+
+	font-size: 15px;
+	padding: 10px 0px 10px 20px;
+}
+.info ul{
+	padding-left: 50px;
+}
+.info ul li{
+	color: #696b79;
+	padding: 5px 0px;
+	list-style-type: disc;
+}
+.info ol{
+		padding-left: 50px;
+	}
+.info ol li{
+	padding: 5px 0px;
+	list-style-type: decimal;
+}
+.points p{
+	display: inline;
+}
